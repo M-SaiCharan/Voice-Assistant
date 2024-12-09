@@ -1,5 +1,5 @@
 
-# Baisc Voice Assistant Project
+# Voice Assistant Project
 
 This project implements a simple voice assistant in Python. The assistant can provide weather updates, read news headlines, and set reminders based on voice commands.
 
@@ -28,8 +28,8 @@ This project implements a simple voice assistant in Python. The assistant can pr
    ```
 
 2. **API Keys**:
-   - **WeatherAPI**: Sign up at <ins>[WeatherAPI](https://www.weatherapi.com/)</ins> to obtain an API key.
-   - **NewsAPI**: Sign up at <ins>[NewsAPI](https://newsapi.org/)</ins> to obtain an API key.
+   - **WeatherAPI**: Sign up at [WeatherAPI](https://www.weatherapi.com/) to obtain an API key.
+   - **NewsAPI**: Sign up at [NewsAPI](https://newsapi.org/) to obtain an API key.
 
 ## How to Run
 1. Clone the project or copy the Python script.
@@ -70,5 +70,5 @@ This project is licensed under the MIT License. You are free to use, modify, and
 
 For more details, refer to the [LICENSE](LICENSE) file included in the project.
 
-Copyright &copy; 2024 M-SaiCharan
+> Copyright &copy; 2024 M-SaiCharan
 
