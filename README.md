@@ -36,7 +36,7 @@ This project implements a simple voice assistant in Python. The assistant can pr
 2. Replace the placeholders for API keys in the `get_weather` and `get_news` functions with your actual keys.
 3. Run the script using Python:
    ```bash
-   python script_name.py
+   python main.py
    ```
 4. The assistant will start listening for your commands.
 
@@ -56,7 +56,11 @@ This project implements a simple voice assistant in Python. The assistant can pr
    - Say "stop" or "exit" to close the assistant.
 
 ## Example Usage
-- User: "What's the weather in New York?"
+<!-- - User: "What's the weather in New York?"
+- Assistant: "The weather in New York is partly cloudy with a temperature of 20°C." -->
+- User: "How is the weather?"
+- Assistant: "Which city?"
+- User: "New York"
 - Assistant: "The weather in New York is partly cloudy with a temperature of 20°C."
 
 ## Troubleshooting
