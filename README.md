@@ -17,28 +17,36 @@ This project implements a simple voice assistant in Python. The assistant can pr
    - Uses speech recognition and text-to-speech to interact with the user.
 
 ## Prerequisites
-1. **Python Libraries**:
-   - `speech_recognition`: For speech-to-text.
-   - `pyttsx3`: For text-to-speech.
-   - `requests`: For making API calls.
-
-   Install these dependencies using pip:
-   ```bash
-   pip install speechrecognition pyttsx3 requests
-   ```
+1. **Python**:
+   - Ensure you have Python 3.7 or above installed on your system.
 
 2. **API Keys**:
    - **WeatherAPI**: Sign up at [WeatherAPI](https://www.weatherapi.com/) to obtain an API key.
    - **NewsAPI**: Sign up at [NewsAPI](https://newsapi.org/) to obtain an API key.
+  
+## Setup Instructions
+1. Clone this repository to your local system using Git:
+
+   ```bash
+   git clone https://github.com/M-SaiCharan/Voice-Assistant.git
+   ```
+
+2. Install Dependencies:
+   Use the following command to install the dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 ## How to Run
-1. Clone the project or copy the Python script.
-2. Replace the placeholders for API keys in the `get_weather` and `get_news` functions with your actual keys.
-3. Run the script using Python:
+1. Replace the placeholders for API keys in the `get_weather` and `get_news` functions in main.py with your actual keys.
+2. Run the script using Python:
+   
    ```bash
    python main.py
    ```
-4. The assistant will start listening for your commands.
+   
+3. The assistant will start listening for your commands.
 
 ## Commands
 1. **Weather**:
@@ -56,8 +64,6 @@ This project implements a simple voice assistant in Python. The assistant can pr
    - Say "stop" or "exit" to close the assistant.
 
 ## Example Usage
-<!-- - User: "What's the weather in New York?"
-- Assistant: "The weather in New York is partly cloudy with a temperature of 20°C." -->
 - User: "How is the weather?"
 - Assistant: "Which city?"
 - User: "New York"
