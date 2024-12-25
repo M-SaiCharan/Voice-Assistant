@@ -30,7 +30,7 @@ def listen():
         print("Listening...")
         try:
             audio = recognizer.listen(source, timeout=5)
-            command = recognizer.recognize_google(audio, language="en-IN")  # Use Indian English
+            command = recognizer.recognize_google(audio, language="en-IN")
             play_sound('success.wav')
             t.sleep(0.3)
             print(f"You said: {command}")
